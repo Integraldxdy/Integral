@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 2px solid  #EAE2D5;
+}
+
+header {
+    width: 800px;
+    height: 100px;
+    background: #D64535;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h2 {
+    font-size: 10px;
+    font-weight: 10;
+}
+
+main {
+    color: #D64535;
+    background-color: #FFF8EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+nav {
+    width: 800px;
+    height: 50px;
+    gap: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main h3 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    color: #D64535;
+    font-size: 20px;
+}
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8EE;
+    gap: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 2px solid #EAE2D5;
+}
+
+.lanches {
+    position: relative;
+    top: 20px;
+    left: -310px;
+    font-size: 20px;
+}
+
+.titlecard {
+    font-size: 30px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.ingredientcard {
+    font-size: 13px;
+    color: #222222;
+}
+
+.pricecard {
+    font-weight: 900;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.telefone, .endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #D64535
+}
+
+.telefone img, .endereco img {
+    width: 30px;
+    height: 30px;
+}
+
